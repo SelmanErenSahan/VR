@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,300&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header h1{
+    font-size: 40px;
+    font-family: unbounded;
+}
+.header .nav{
+    display: flex;
+    gap: 30px;
+}
+body{
+    padding: 50px;
+    font-family: 'poppins';
+}
+.header .nav a{
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.header .nav a:hover{
+    color: crimson;
+    text-shadow: 0 0 30px crimson;
+}
+.header .sign{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+.header .sign:hover{
+    color: rgb(255, 253, 253);
+    background-color: black;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+.hero img{
+    max-width: 500px;
+}
+.hero .text-area{
+    max-width: 700px;
+}
+.text-area h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'unbounded';
+}
+.text-area p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.text-area h1 span{
+    color: crimson;
+    text-shadow: 0 0 100px crimson;
+}
+/* Kutular */
+.boxes{
+    display: flex;
+    background: rgb(78, 78, 78);
+    margin-top: 100px;
+    padding: 40px;
+    border-radius: 20px;
+    gap: 10px;
+    justify-content: space-between;
+}
+.boxes .box img{
+    max-width: 65px;
+}
+.box{
+    background: white;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s;
+}
+.box p{
+    margin-top: 10px;
+    max-width: 250px;
+}
+.box:hover{
+    transform: translate(10px, -10px);
+    box-shadow: 0 0 25px crimson;
+}
+.Vr{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+.Vr .text-area{
+    max-width: 600px;
+}
+.Vr .text-area h1{
+    font-size: 40px;
+}
+
+.footer{
+   background: rgb(33, 36, 61); 
+   padding: 100px;
+   border-radius: 20px;
+   margin: 150px auto;
+   max-width: 900px;
+   color: white;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 500px;
+   justify-content: space-between;
+}
+.footer a{
+    background-color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 50px;
+    color: rgb(33, 36, 61);
+    transition: all 0.5s ease;
+}
+.footer a:hover{
+    background-color: crimson;
+    color: white;
+    box-shadow: 0 0 250px crimson;
+}
+.form{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    font-family: 'poppins';
+    background-color: rgb(33, 36, 61);
+    width: 750px;
+    color: white;
+    font-size: xx-large;
+    padding: 60px;
+    border-radius: 30px;
+    position: relative;
+    top: 60px;
+    left: 350px;
+}
+.form a{
+    text-decoration: none;
+    background-color: white;
+    color: rgb(33, 36, 61);
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+.form a:hover{
+    background: crimson;
+    color: white;
+    box-shadow: 0 0 25px crimson;
+}
+.checkbox{
+    font-size: large;
+}
